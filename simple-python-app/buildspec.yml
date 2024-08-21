@@ -12,6 +12,7 @@ phases:
   pre_build:
     commands:
       - echo "Installing dependencies..."
+      - pip install --upgrade pip
       - pip install -r day-13/simple-python-app/requirements.txt
   build:
     commands:
